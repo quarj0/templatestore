@@ -1,0 +1,25 @@
+.NotFount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .NotFount-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .NotFount-text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .NotFount-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

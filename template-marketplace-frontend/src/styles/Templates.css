@@ -1,0 +1,240 @@
+/* TemplateCard styles */
+.Template-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .Template-cardImageContainer {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+  
+  .Template-cardImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .Template-cardBody {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Template-cardTitle {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .Template-cardText {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .Template-cardDate {
+    color: #777;
+  }
+  
+  /* TemplateDetails styles */
+  .Template-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .Template-detailsTitle {
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .Template-detailsText {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .Template-detailsDate {
+    color: #777;
+  }
+  
+  /* CategoryList styles */
+  .Template-categories {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .Template-categoriesTitle {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .Template-categories li {
+    margin-bottom: 5px;
+  }
+  
+  .Template-categories li a {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Media queries */
+  @media only screen and (min-width: 768px) {
+    .Template-card {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .Template-cardImageContainer {
+      width: 50%;
+      padding-bottom: 0;
+    }
+  
+    .Template-cardBody {
+      width: 50%;
+      padding: 20px 40px;
+      text-align: left;
+    }
+  
+    .Template-cardTitle {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+  
+    .Template-cardText {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+  
+    .Template-details {
+      padding: 60px;
+    }
+  
+    .Template-detailsTitle {
+      font-size: 48px;
+    }
+  
+    .Template-detailsText {
+      font-size: 24px;
+      line-height: 1.8;
+      margin-bottom: 30px;
+    }
+  
+    .Template-categories {
+      padding: 40px;
+    }
+  
+    .Template-categoriesTitle {
+      font-size: 36px;
+    }
+  
+    .Template-categories li a {
+      font-size: 24px;
+    }
+  }
+
+  /* Default styles for Template component */
+
+/* .Template {
+  margin-bottom: 2rem;
+}
+
+.Template-card,
+.Template-details {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Template-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Template-cardImageContainer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Template-cardImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Template-cardTitle {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.Template-cardText {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.Template-cardDate {
+  color: #999;
+}
+
+.Template-cardButton,
+.Template-detailsButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.Template-cardButton:hover,
+.Template-detailsButton:hover {
+  background-color: #0062cc;
+}
+
+/* Media queries to adjust styles for smaller screens */
+
+/* @media screen and (max-width: 767px) {
+  .Template-card,
+  .Template-details {
+    padding: 0.5rem;
+  }
+  
+  .Template-cardImageContainer {
+    height: 150px;
+  }
+  
+  .Template-cardTitle {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .Template-cardText {
+    margin-bottom: 0.5rem;
+  }
+} */ 

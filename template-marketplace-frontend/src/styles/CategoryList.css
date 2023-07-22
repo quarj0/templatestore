@@ -1,0 +1,46 @@
+.CategoryList {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .CategoryList-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .CategoryList-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .CategoryList-item {
+    margin: 5px;
+  }
+  
+  .CategoryList-link {
+    color: #333;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .CategoryList-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .CategoryList-item {
+      margin: 5px 0;
+    }
+  }
+  

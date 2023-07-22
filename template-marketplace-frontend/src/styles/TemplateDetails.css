@@ -1,0 +1,84 @@
+.TemplateDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+
+    @media only screen and (min-width: 768px) {
+        flex-direction: row;
+        max-width: 80%;
+    }
+}
+
+.TemplateDetails-image {
+    width: 100%;
+    margin-bottom: 1rem;
+
+    @media only screen and (min-width: 768px) {
+        width: 50%;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+}
+
+.TemplateDetails-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (min-width: 768px) {
+        width: 50%;
+        align-items: flex-start;
+    }
+}
+
+.TemplateDetails-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+
+    @media only screen and (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.TemplateDetails-category {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.TemplateDetails-description {
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 0.5rem;
+}
+
+.TemplateDetails-download {
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+
+    @media only screen and (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.TemplateDetails-download-button {
+    padding: 0.5rem;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.TemplateDetails-download-button:hover {
+        background-color: #2c3e50;
+    }
+
+
+.TemplateDetails-download-count {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
